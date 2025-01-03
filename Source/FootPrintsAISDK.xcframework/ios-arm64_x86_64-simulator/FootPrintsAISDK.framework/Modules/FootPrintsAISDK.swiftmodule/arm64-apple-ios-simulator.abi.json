@@ -1,0 +1,496 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FootPrintsAISDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "FootPrintsAISDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LocationManager",
+        "printedName": "LocationManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LocationManager",
+                "printedName": "FootPrintsAISDK.LocationManager",
+                "usr": "c:@M@FootPrintsAISDK@objc(cs)LocationManager"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FootPrintsAISDK15LocationManagerC6sharedACvpZ",
+            "mangledName": "$s15FootPrintsAISDK15LocationManagerC6sharedACvpZ",
+            "moduleName": "FootPrintsAISDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocationManager",
+                    "printedName": "FootPrintsAISDK.LocationManager",
+                    "usr": "c:@M@FootPrintsAISDK@objc(cs)LocationManager"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FootPrintsAISDK15LocationManagerC6sharedACvgZ",
+                "mangledName": "$s15FootPrintsAISDK15LocationManagerC6sharedACvgZ",
+                "moduleName": "FootPrintsAISDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "checkLocationPermission",
+            "printedName": "checkLocationPermission()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FootPrintsAISDK15LocationManagerC05checkD10PermissionSbyF",
+            "mangledName": "$s15FootPrintsAISDK15LocationManagerC05checkD10PermissionSbyF",
+            "moduleName": "FootPrintsAISDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestPermissions",
+            "printedName": "requestPermissions()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FootPrintsAISDK15LocationManagerC18requestPermissionsyyF",
+            "mangledName": "$s15FootPrintsAISDK15LocationManagerC18requestPermissionsyyF",
+            "moduleName": "FootPrintsAISDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startTrackingLocation",
+            "printedName": "startTrackingLocation(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreLocation.CLLocation) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLLocation",
+                    "printedName": "CoreLocation.CLLocation",
+                    "usr": "c:objc(cs)CLLocation"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FootPrintsAISDK15LocationManagerC013startTrackingD010completionyySo10CLLocationCc_tF",
+            "mangledName": "$s15FootPrintsAISDK15LocationManagerC013startTrackingD010completionyySo10CLLocationCc_tF",
+            "moduleName": "FootPrintsAISDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopTrackingLocation",
+            "printedName": "stopTrackingLocation()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FootPrintsAISDK15LocationManagerC012stopTrackingD0yyF",
+            "mangledName": "$s15FootPrintsAISDK15LocationManagerC012stopTrackingD0yyF",
+            "moduleName": "FootPrintsAISDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deliverLocationContent",
+            "printedName": "deliverLocationContent(for:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocation",
+                "printedName": "CoreLocation.CLLocation",
+                "usr": "c:objc(cs)CLLocation"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FootPrintsAISDK15LocationManagerC07deliverD7Content3for10completionySo10CLLocationC_ySSctF",
+            "mangledName": "$s15FootPrintsAISDK15LocationManagerC07deliverD7Content3for10completionySo10CLLocationC_ySSctF",
+            "moduleName": "FootPrintsAISDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didUpdateLocations:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreLocation.CLLocation]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLLocation",
+                    "printedName": "CoreLocation.CLLocation",
+                    "usr": "c:objc(cs)CLLocation"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FootPrintsAISDK@objc(cs)LocationManager(im)locationManager:didUpdateLocations:",
+            "mangledName": "$s15FootPrintsAISDK15LocationManagerC08locationE0_18didUpdateLocationsySo010CLLocationE0C_SaySo0J0CGtF",
+            "moduleName": "FootPrintsAISDK",
+            "objc_name": "locationManager:didUpdateLocations:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didFailWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FootPrintsAISDK@objc(cs)LocationManager(im)locationManager:didFailWithError:",
+            "mangledName": "$s15FootPrintsAISDK15LocationManagerC08locationE0_16didFailWithErrorySo010CLLocationE0C_s0J0_ptF",
+            "moduleName": "FootPrintsAISDK",
+            "objc_name": "locationManager:didFailWithError:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManagerDidChangeAuthorization",
+            "printedName": "locationManagerDidChangeAuthorization(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FootPrintsAISDK@objc(cs)LocationManager(im)locationManagerDidChangeAuthorization:",
+            "mangledName": "$s15FootPrintsAISDK15LocationManagerC08locationE22DidChangeAuthorizationyySo010CLLocationE0CF",
+            "moduleName": "FootPrintsAISDK",
+            "objc_name": "locationManagerDidChangeAuthorization:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@FootPrintsAISDK@objc(cs)LocationManager",
+        "mangledName": "$s15FootPrintsAISDK15LocationManagerC",
+        "moduleName": "FootPrintsAISDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Desktop\/FootPrintsAISDK\/FootPrintsAISDK\/LocationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1073,
+      "length": 87,
+      "value": "\"Location access denied or restricted. Ask the user to enable permissions in settings.\""
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Desktop\/FootPrintsAISDK\/FootPrintsAISDK\/LocationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1234,
+      "length": 39,
+      "value": "\"Location permissions already granted.\""
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Desktop\/FootPrintsAISDK\/FootPrintsAISDK\/LocationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1319,
+      "length": 40,
+      "value": "\"Unknown location authorization status.\""
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Desktop\/FootPrintsAISDK\/FootPrintsAISDK\/LocationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1570,
+      "length": 68,
+      "value": "\"Location permissions not granted. Call requestPermissions() first.\""
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Desktop\/FootPrintsAISDK\/FootPrintsAISDK\/LocationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2222,
+      "length": 69,
+      "value": "\"Location content for latitude: \""
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Desktop\/FootPrintsAISDK\/FootPrintsAISDK\/LocationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2265,
+      "length": 1,
+      "value": "\", longitude: \""
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Desktop\/FootPrintsAISDK\/FootPrintsAISDK\/LocationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2290,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Desktop\/FootPrintsAISDK\/FootPrintsAISDK\/LocationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2706,
+      "length": 60,
+      "value": "\"Failed to retrieve location: \""
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Desktop\/FootPrintsAISDK\/FootPrintsAISDK\/LocationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2765,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Desktop\/FootPrintsAISDK\/FootPrintsAISDK\/LocationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3010,
+      "length": 31,
+      "value": "\"Location permissions granted.\""
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Desktop\/FootPrintsAISDK\/FootPrintsAISDK\/LocationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3096,
+      "length": 44,
+      "value": "\"Location permissions denied or restricted.\""
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Desktop\/FootPrintsAISDK\/FootPrintsAISDK\/LocationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3189,
+      "length": 42,
+      "value": "\"Location permissions not determined yet.\""
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Desktop\/FootPrintsAISDK\/FootPrintsAISDK\/LocationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3277,
+      "length": 40,
+      "value": "\"Unknown location authorization status.\""
+    }
+  ]
+}

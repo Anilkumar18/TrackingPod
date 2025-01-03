@@ -1,0 +1,69 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FootPrintsAISDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CoreLocation
+@_exported import FootPrintsAISDK
+import Foundation
+import SQLite3
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol NetworkManagerDelegate : AnyObject {
+  func didReceiveSuccessResponse(message: Swift.String)
+  func didReceiveFailureResponse(error: FootPrintsAISDK.NetworkError)
+}
+public enum NetworkError : Swift.Error {
+  case noInternetConnection
+  case invalidBaseUrl
+  case invalidApiKey
+  case invalidEndpoint
+  case decodingError
+  case serverError(Swift.String)
+  case unknownError
+  case authenticationFailure
+}
+@_hasMissingDesignatedInitializers public class NetworkManager {
+  public static let shared: FootPrintsAISDK.NetworkManager
+  weak public var delegate: (any FootPrintsAISDK.NetworkManagerDelegate)?
+  public func setBaseUrl(_ url: Swift.String)
+  public func sendRequest<T>(endpoint: Swift.String, method: Swift.String = "POST", parameters: [Swift.String : Any] = [:], retries: Swift.Int = 0, responseType: T.Type, completion: @escaping (Swift.Result<T, FootPrintsAISDK.NetworkError>) -> Swift.Void) where T : Swift.Decodable
+  public func initApp(parameters: [Swift.String : Any], completion: @escaping (Swift.Result<Swift.String, FootPrintsAISDK.NetworkError>) -> Swift.Void)
+  @objc deinit
+}
+public struct InitAppResponse : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum LocationError : Swift.Error, Foundation.LocalizedError {
+  case permissionDenied
+  case permissionRestricted
+  case locationNotDetermined
+  case locationUpdateFailed(Swift.String)
+  case unknownAuthorizationStatus
+  case authenticationFailed
+  case databaseInsertFailed(Swift.String)
+  case databaseFetchFailed(Swift.String)
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+public protocol LocationManagerDelegate : AnyObject {
+  func didUpdateLocation(_ location: CoreLocation.CLLocation)
+  func didFailWithError(_ error: FootPrintsAISDK.LocationError)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class LocationManager : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
+  public static let shared: FootPrintsAISDK.LocationManager
+  weak public var delegate: (any FootPrintsAISDK.LocationManagerDelegate)?
+  public var currentLatitude: Swift.Double?
+  public var currentLongitude: Swift.Double?
+  public func setCredentials(apiKey: Swift.String)
+  public func requestPermissions()
+  public func startTrackingLocation()
+  public func stopTrackingLocation()
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: any Swift.Error)
+  @objc public func locationManagerDidChangeAuthorization(_ manager: CoreLocation.CLLocationManager)
+  @objc deinit
+}
