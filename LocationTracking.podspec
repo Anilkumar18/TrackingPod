@@ -9,7 +9,7 @@
     object tracking, and more.
   DESC
 
-  spec.homepage     = 'https://github.com/Anilkumar18/'
+  spec.homepage     = 'https://github.com/Anilkumar18/TrackingPod'
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.author       = { 'Anilkumar' => 'anilkumarunni@gmail.com' }
   spec.source       = { :git => 'https://github.com/Anilkumar18/TrackingPod.git', :tag => spec.version.to_s }
