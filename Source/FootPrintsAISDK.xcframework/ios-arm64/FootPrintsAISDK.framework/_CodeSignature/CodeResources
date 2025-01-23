@@ -4,99 +4,99 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/FootPrintsAISDK-Swift.h</key>
+		<key>Headers/FootprintsAISDK-Swift.h</key>
 		<data>
-		eu+QgHVHa1+WixFvvUr3FiU2RH4=
+		0f4jYEUGp/InyLoWOFGHXeZNK6s=
 		</data>
-		<key>Headers/FootPrintsAISDK.h</key>
+		<key>Headers/FootprintsAISDK.h</key>
 		<data>
-		vmiVCiOK1rcoZ9dmYQxOJiJw76M=
+		zfqX85yAy1LnH3p/LFrt8QeiH7w=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		JupRoNDgtaeDId+wLqsFyu/D7dY=
+		6soQYzGtduls/5sWqFuAWbMi8xA=
 		</data>
-		<key>Modules/FootPrintsAISDK.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		pzikGMLKHQTIZ7wEnTt54NvXpE0=
+		hGh8Jwyw+k6twpEZ8TFpY6hkMXs=
 		</data>
-		<key>Modules/FootPrintsAISDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		6fMnQpGxyCV3qyxViB+eXO++cko=
+		QBUuFzFtMIUtPaRBnjnss3AJYFQ=
 		</data>
-		<key>Modules/FootPrintsAISDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		5VkBA+k2i14q+9OgL53wmRP7rYc=
+		teRsjpoE4pxINW1mY6bG8yWn8To=
 		</data>
-		<key>Modules/FootPrintsAISDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		6fMnQpGxyCV3qyxViB+eXO++cko=
+		QBUuFzFtMIUtPaRBnjnss3AJYFQ=
 		</data>
-		<key>Modules/FootPrintsAISDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		IFaw0GIHnP8/dqsuIdD7iOIqpp4=
+		ZHifm7y20riVBNczxXY0dZSngUQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		f3blquK8xBjHVQiA/qhlrYv0RXY=
+		d/+J5T0Dh7Pn+lKGyEeMyZi7JzQ=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/FootPrintsAISDK-Swift.h</key>
+		<key>Headers/FootprintsAISDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q/yEfFIteU7fFnt0PW9EYNUdKsCTgYcwE8Fob7P8ui0=
+			QJMkVWAs3zyYOjW0GOEYQ9CeYt+J4/5pwlVM8nAt9FM=
 			</data>
 		</dict>
-		<key>Headers/FootPrintsAISDK.h</key>
+		<key>Headers/FootprintsAISDK.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VnA1pt1YJteXa6pcS152GhoKs1ISdtzAzp3LhFXEMJE=
+			ojfef2cusASdgcmNsLoHmpK4g9tZHV/jt02d5tKIXxc=
 			</data>
 		</dict>
-		<key>Modules/FootPrintsAISDK.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G0r5EnQUXaQ2c/AHuvAfmMqCYAnJ7OA8mQOIJtxR32A=
+			UhxefAfF0TP2VBkd0yJbVo69BN7KmnGZq0vZ5ybV/c8=
 			</data>
 		</dict>
-		<key>Modules/FootPrintsAISDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lFbjKrL6jejHtVo+lxm1BYIvKJ0VonOP5Z1ZX0vooG8=
+			NBS7eBM2gejfhybgEzONQxmDaTo61QIixP8aZd/Ae30=
 			</data>
 		</dict>
-		<key>Modules/FootPrintsAISDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gAxiGjt8BvfH4xWpv6o1PIj316yhSLHHDDxm1qcmkVc=
+			E8vEj/YlNmGS1zEsfWGHDENsPrfEIrgx52EKY92Wc2U=
 			</data>
 		</dict>
-		<key>Modules/FootPrintsAISDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lFbjKrL6jejHtVo+lxm1BYIvKJ0VonOP5Z1ZX0vooG8=
+			NBS7eBM2gejfhybgEzONQxmDaTo61QIixP8aZd/Ae30=
 			</data>
 		</dict>
-		<key>Modules/FootPrintsAISDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d695eFLSdlz/laI62Q0II1Lk6PMWbU2K7QtPVQZgfB8=
+			IvO81KPXC2fpLuuonwbZGZVQbXrBApgJmLRtaW50ALU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fdRN2e621zkE0liALCLP5wVbnlrfUqDFu+kcE+2Kb6E=
+			fdOxid7FLbtFJdi+XWuQ3u6rxJPUfJ0CgLgAmd03+io=
 			</data>
 		</dict>
 	</dict>

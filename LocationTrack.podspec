@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LocationTrack"
-  spec.version      = "0.0.7"
+  spec.version      = "0.0.8"
   spec.summary      = "LocationTrack is an iOS SDK for real-time location tracking and monitoring."
 
   # This description is used to generate tags and improve search results.
@@ -140,7 +140,7 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
 
-  spec.vendored_frameworks = 'Source/FootPrintsAISDK.xcframework'
+  spec.vendored_frameworks = 'Source/FootprintsAISDK.xcframework'
   spec.requires_arc = true
 
 end
