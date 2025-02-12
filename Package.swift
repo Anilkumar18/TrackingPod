@@ -16,7 +16,7 @@ let package = Package(
     targets: [
         .target(
             name: "TrackingPod",
-            path: "Sources" // Ensure you have a "Sources" folder with your code
+            path: "Source" // Ensure you have a "Sources" folder with your code
         )
     ]
 )
