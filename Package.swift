@@ -14,9 +14,9 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .target(
+        .binaryTarget(
             name: "TrackingPod",
-            path: "Source" // Ensure you have a "Sources" folder with your code
+            path: "Source/TrackingPod.xcframework" // Ensure this path points to the actual xcframework
         )
     ]
 )
