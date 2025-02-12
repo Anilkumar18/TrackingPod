@@ -16,7 +16,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "TrackingPod",
-            path: "Source/TrackingPod.xcframework" // Ensure this path points to the actual xcframework
+            path: "Source/FootprintsAISDK.xcframework" // Ensure this path points to the actual xcframework
         )
     ]
 )
