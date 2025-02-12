@@ -2,7 +2,9 @@
 // swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FootprintsAISDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVKit
 import AdSupport
+import Alamofire
 import AppTrackingTransparency
 import CoreLocation
 @_exported import FootprintsAISDK
@@ -10,6 +12,7 @@ import Foundation
 import SQLite3
 import Swift
 import UIKit
+import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -26,17 +29,18 @@ public enum NetworkError : Swift.Error {
   case serverError(Swift.String)
   case unknownError
   case authenticationFailure
+  case timeout
+  case apiLimitExceeded
 }
 @_hasMissingDesignatedInitializers public class NetworkManager {
   public static let shared: FootprintsAISDK.NetworkManager
   weak public var delegate: (any FootprintsAISDK.NetworkManagerDelegate)?
-  public func setBaseUrlAndAppKey(_ url: Swift.String, AppKey: Swift.String)
-  public func sendRequest<T>(endpoint: Swift.String, method: Swift.String = "POST", parameters: [Swift.String : Any] = [:], contentType: Swift.String = "application/json", retries: Swift.Int = 0, responseType: T.Type, completion: @escaping (Swift.Result<T, FootprintsAISDK.NetworkError>) -> Swift.Void) where T : Swift.Decodable
+  public func sendRequest<T>(endpoint: Swift.String, method: Alamofire.HTTPMethod = .post, parameters: [Swift.String : Any] = [:], contentType: Swift.String = "application/json", retries: Swift.Int = 0, responseType: T.Type, completion: @escaping (Swift.Result<T, FootprintsAISDK.NetworkError>) -> Swift.Void) where T : Swift.Decodable
   @objc deinit
 }
 public protocol AppTrackingAuthorizationDelegate : AnyObject {
-  func didFetchIDFA(idfa: Swift.String)
-  func didFailToFetchIDFA(reason: Swift.String)
+  func didFetchAdvertisingId(ID: Swift.String)
+  func didFailToFetchAdvertisingId(reason: Swift.String)
 }
 public enum TrackingAuthorizationStatus {
   case authorized
@@ -65,13 +69,71 @@ public struct LocationResponse {
 }
 public struct LocationErrorResponse {
 }
+public protocol DisplayAdScrollableAdViewDelegate : AnyObject {
+  func didSelectAdsClickAction()
+}
+public struct AdProps {
+  public var adLayoutColor: UIKit.UIColor?
+  public var titleFont: UIKit.UIFont?
+  public var titleLabelColor: UIKit.UIColor?
+  public var titleTextAlignMent: UIKit.NSTextAlignment?
+  public var titleTextNumberOfLines: Swift.Int?
+  public var topMessageFont: UIKit.UIFont?
+  public var topMessageColor: UIKit.UIColor?
+  public var topMessageTextAlignMent: UIKit.NSTextAlignment?
+  public var topMessageTextNumberOfLines: Swift.Int?
+  public var bannerVideoHeight: CoreFoundation.CGFloat?
+  public var bannerVideoBackgroundColor: UIKit.UIColor?
+  public var bannerVideoCornerRadius: CoreFoundation.CGFloat?
+  public var bannerImageHeight: CoreFoundation.CGFloat?
+  public var bannerImageBackgroundColor: UIKit.UIColor?
+  public var bannerImageCornerRadius: CoreFoundation.CGFloat?
+  public var bannerImageContentMode: UIKit.UIView.ContentMode?
+  public var footerFont: UIKit.UIFont?
+  public var footerDescriptionLabelColor: UIKit.UIColor?
+  public var footerDescriptionTextAlignment: UIKit.NSTextAlignment?
+  public var footerTextNumberOfLines: Swift.Int?
+  public var clickHereButtonBackgroundColor: UIKit.UIColor?
+  public var clickHereButtonCornerRadius: CoreFoundation.CGFloat?
+  public var clickHereButtonTitleColor: UIKit.UIColor?
+  public var clickHereButtonTitleFont: UIKit.UIFont?
+}
+public protocol AdsViewManagerDelegate : AnyObject {
+  func didSelectAdsClickAction()
+}
+@objc @_inheritsConvenienceInitializers public class AdsViewManager : ObjectiveC.NSObject {
+  public static let shared: FootprintsAISDK.AdsViewManager
+  weak public var clickActionDelegate: (any FootprintsAISDK.AdsViewManagerDelegate)?
+  public func DisplayAds(props: FootprintsAISDK.AdProps? = nil) -> UIKit.UIView
+  public func HorizontalAds(props: FootprintsAISDK.AdProps? = nil) -> UIKit.UIView
+  public func VerticalAds(props: FootprintsAISDK.AdProps? = nil) -> UIKit.UIView
+  public func LeadAds(props: FootprintsAISDK.AdProps? = nil) -> UIKit.UIView
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension FootprintsAISDK.AdsViewManager : FootprintsAISDK.DisplayAdScrollableAdViewDelegate, FootprintsAISDK.ScrollableAdViewDelegate {
+  public func didSelectAdsClickAction()
+}
+extension FootprintsAISDK.AdsViewManager : UIKit.UIScrollViewDelegate {
+  public func integrateScrollView(_ scrollView: UIKit.UIScrollView)
+  public func integrateAdView(displayAdView: UIKit.UIView? = nil, horizontalAdView: UIKit.UIView? = nil, verticalAdView: UIKit.UIView? = nil, leadAdView: UIKit.UIView? = nil)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func scrollViewWillEndDragging(_ scrollView: UIKit.UIScrollView, withVelocity velocity: CoreFoundation.CGPoint, targetContentOffset: Swift.UnsafeMutablePointer<CoreFoundation.CGPoint>)
+}
+extension FootprintsAISDK.AdsViewManager {
+  public func setContentDeliveryResponse(_ response: FootprintsAISDK.ContentDelivaryResponse)
+  public func dragAdviews(scrollView: UIKit.UIScrollView, displayAdView: UIKit.UIView, horizontalAdView: UIKit.UIView, verticalAdView: UIKit.UIView, leadAdView: UIKit.UIView)
+}
 public struct SendGeoLocationResponse : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct InitAppResponse : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct SendAdditionalDataResponse : Swift.Decodable {
+public struct SendReachDataResponse : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct SendImpressionDataResponse : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public enum LocationError : Swift.Error {
@@ -97,32 +159,12 @@ public protocol LocationManagerDelegate : AnyObject {
   public static let shared: FootprintsAISDK.LocationManager
   weak public var delegate: (any FootprintsAISDK.LocationManagerDelegate)?
   public func setCredentials(apiKey: Swift.String)
-  public func requestPermissions()
+  public func checkLocationPermission()
   public func fetchLocationOnce()
   @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
   public func sendGeoLocation(latitude: Swift.Double, longitude: Swift.Double, accuracy: Swift.Double)
   @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: any Swift.Error)
   @objc public func locationManagerDidChangeAuthorization(_ manager: CoreLocation.CLLocationManager)
-  @objc deinit
-}
-public enum DatabaseError : Swift.Error {
-  case executionFailed(Swift.String)
-  case queryFailed(Swift.String)
-  case databaseNotOpened(Swift.String)
-}
-public protocol DatabaseHelperDelegate : AnyObject {
-  func didInitializeDatabase(initDbData: [Swift.String : Any])
-  func didInsertLocationData(insertDbData: [Swift.String : Any])
-  func didFetchLocationData(fetchDbData: [Swift.String : Any])
-  func didDeleteDb(deleteDbData: [Swift.String : Any])
-}
-@_hasMissingDesignatedInitializers public class DatabaseHelper {
-  public static let shared: FootprintsAISDK.DatabaseHelper
-  weak public var delegate: (any FootprintsAISDK.DatabaseHelperDelegate)?
-  public func fetchLocationData()
-  public func insertLocationData(latitude: Swift.Double, longitude: Swift.Double, accuracy: Swift.Double, altitude: Swift.Double, altitudeAccuracy: Swift.Double, heading: Swift.Double, speed: Swift.Double, timestamp: Swift.Double)
-  public func deleteLocationData(by id: Swift.Int) throws
-  public func deleteDatabase() throws
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class DatabaseQuery {
@@ -147,6 +189,32 @@ public protocol DatabaseHelperDelegate : AnyObject {
   public static let databaseDeleteSuccessMessage: Swift.String
   public static let databaseDeleteFailedMessage: Swift.String
   public static let databaseNotFoundMessage: Swift.String
+  @objc deinit
+}
+public protocol ScrollableAdViewDelegate : AnyObject {
+  func didSelectAdsClickAction()
+}
+public enum DatabaseError : Swift.Error {
+  case executionFailed(Swift.String)
+  case queryFailed(Swift.String)
+  case databaseNotOpened(Swift.String)
+}
+public protocol DatabaseHelperDelegate : AnyObject {
+  func didInitializeDatabase(initDbData: [Swift.String : Any])
+  func didInsertLocationData(insertDbData: [Swift.String : Any])
+  func didFetchLocationData(fetchDbData: [Swift.String : Any])
+  func didDeleteDb(deleteDbData: [Swift.String : Any])
+}
+@_hasMissingDesignatedInitializers public class DatabaseHelper {
+  public static let shared: FootprintsAISDK.DatabaseHelper
+  weak public var delegate: (any FootprintsAISDK.DatabaseHelperDelegate)?
+  public func initializeDatabase()
+  public func fetchAllLocationFromDB()
+  public func fetchCurrentLocationFromDB()
+  public func insertLocationData(latitude: Swift.Double, longitude: Swift.Double, accuracy: Swift.Double, altitude: Swift.Double, altitudeAccuracy: Swift.Double, heading: Swift.Double, speed: Swift.Double, timestamp: Swift.Double)
+  public func deleteLocationData(by id: Swift.Int) throws
+  public func deleteDatabase()
+  public func deleteTableInLocalDB(tableName: Swift.String)
   @objc deinit
 }
 public struct ContentDelivaryResponse : Swift.Codable {
@@ -175,8 +243,8 @@ public struct ContentDelivaryResponse : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct DataClass : Swift.Codable {
-  public let videoAdHorizontalVideo: [FootprintsAISDK.DisplayAd], videoAdVerticalVideo: [FootprintsAISDK.DisplayAd]
-  public let leadAd: [Swift.String], productAd: [Swift.String], mobileNotifications: [Swift.String]
+  public let videoAdHorizontalVideo: [FootprintsAISDK.DisplayAd], videoAdVerticalVideo: [FootprintsAISDK.DisplayAd], leadAd: [FootprintsAISDK.DisplayAd]
+  public let productAd: [Swift.String], mobileNotifications: [Swift.String]
   public let displayAd: [FootprintsAISDK.DisplayAd]
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -214,23 +282,27 @@ public struct DisplayAd : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public protocol NetworkViewModelDelegate : AnyObject {
-  func didReceiveInitAppSuccess(initSuccessData: [Swift.String : Any])
+  func didReceiveInitAppSuccess(initSuccessData: [Swift.String : Any], deviceInfo: [Swift.String : Any])
   func didReceiveInitAppFailure(initFailureData: [Swift.String : Any])
   func didSendContentDelivarySuccess(response: FootprintsAISDK.ContentDelivaryResponse)
-  func didSendContentDelivaryFailure(error: FootprintsAISDK.ContentDeliveryFailureResponse)
-  func didSendAdditionalDataSuccess(response: FootprintsAISDK.SendAdditionalDataResponse)
-  func didSendAdditionalDataFailure(error: FootprintsAISDK.NetworkError)
+  func didSendContentDelivaryFailure(error: FootprintsAISDK.NetworkError)
+  func didSendReachDataSuccess(response: FootprintsAISDK.SendReachDataResponse)
+  func didSendReachDataFailure(error: FootprintsAISDK.NetworkError)
+  func didSendImpressionDataSuccess(response: FootprintsAISDK.SendImpressionDataResponse)
+  func didSendImpressionFailure(error: FootprintsAISDK.NetworkError)
 }
 @_hasMissingDesignatedInitializers public class NetworkViewModel {
   public static let shared: FootprintsAISDK.NetworkViewModel
   weak public var delegate: (any FootprintsAISDK.NetworkViewModelDelegate)?
+  public func setClientKey(baseUrl: Swift.String, appKey: Swift.String, fcmToken: Swift.String? = nil)
   public func initializeTracking(apiKey: Swift.String)
   public func sendGeoLocation(parameters: [Swift.String : Any], completion: @escaping (Swift.Result<Swift.Bool, FootprintsAISDK.NetworkError>) -> Swift.Void)
   public func sendContentDelivery(parameters: [Swift.String : Any])
   public func getContentDelivery()
-  public func sendAdditionalData(parameters: [Swift.String : Any])
-  public func getAdditionalData(campaignId: Swift.String, reqType: Swift.String)
-  public func sendImpressionData(campaignId: Swift.String, reqType: Swift.String, adId: Swift.String)
+  public func sendReachData(parameters: [Swift.String : Any])
+  public func sendImpressionData(parameters: [Swift.String : Any])
+  public func sendReach(requestType: Swift.String, actionType: Swift.String)
+  public func sendImpression(campaignId: Swift.String, requestType: Swift.String, adId: Swift.String, actionType: Swift.String)
   @objc deinit
 }
 extension FootprintsAISDK.TrackingAuthorizationStatus : Swift.Equatable {}

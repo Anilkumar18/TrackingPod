@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/FootprintsAISDK-Swift.h</key>
 		<data>
-		L7Qbroxws/lTjacrkpcth78HaRk=
+		qWM9C2zYccxm7mkDCbyQi01BF+Y=
 		</data>
 		<key>Headers/FootprintsAISDK.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		hGh8Jwyw+k6twpEZ8TFpY6hkMXs=
+		9iQaGVYSRk4FUFfWMzfOtr/wjKA=
 		</data>
 		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		dD8bYEBFr/+z+i8md7Gjnw+ZcMU=
+		lESD3Vn6Lh7KxMgfXUekaBYQUnI=
 		</data>
 		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		dD8bYEBFr/+z+i8md7Gjnw+ZcMU=
+		lESD3Vn6Lh7KxMgfXUekaBYQUnI=
 		</data>
 		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		E2hyuEI8y63t/xMxD8vP37AEgOU=
+		fr+h0XEZ4RB6twvavTAyFImzFmg=
 		</data>
 		<key>Modules/FootprintsAISDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		hGh8Jwyw+k6twpEZ8TFpY6hkMXs=
+		9iQaGVYSRk4FUFfWMzfOtr/wjKA=
 		</data>
 		<key>Modules/FootprintsAISDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		CD2nW2M7K99GSj9BY25KZhuVyAI=
+		ahJKen9SKB+G5s/R9n7EYq2KWD4=
 		</data>
 		<key>Modules/FootprintsAISDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/FootprintsAISDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		CD2nW2M7K99GSj9BY25KZhuVyAI=
+		ahJKen9SKB+G5s/R9n7EYq2KWD4=
 		</data>
 		<key>Modules/FootprintsAISDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1YiMXrvkpDJXHzvZeHWCO14hVh4=
+		HznjhyCHIX14YsKh6KmjQ9s/F5s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fYaUkj5qlxxq+04RBHlY+fZKam0FfQih8YPtqjZdHLY=
+			pWhHtjWtmw0zpW3jfamu9q2Od52JPQyTuJ7j27jQiRM=
 			</data>
 		</dict>
 		<key>Headers/FootprintsAISDK.h</key>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UhxefAfF0TP2VBkd0yJbVo69BN7KmnGZq0vZ5ybV/c8=
+			JlBZYdebcgZgSus2wyOcQfOqLGKM+59GW4yh+d2ruoM=
 			</data>
 		</dict>
 		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H9nD6qTMtdIP8NIKjLNioX66NjLanUShxZTNLdb7mDk=
+			mrZ0q9s0E/6OqiAYgSS3bf3GaNCS5eomzZReQY8sCJA=
 			</data>
 		</dict>
 		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H9nD6qTMtdIP8NIKjLNioX66NjLanUShxZTNLdb7mDk=
+			mrZ0q9s0E/6OqiAYgSS3bf3GaNCS5eomzZReQY8sCJA=
 			</data>
 		</dict>
 		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pvHZoRdharYngjZF/uardWX9S+ixL2rmaF6JtmfHcFQ=
+			nsCU96BlTuxqcMLKa1A1KqKnVVSRuQfh1LKgLBWQi5Q=
 			</data>
 		</dict>
 		<key>Modules/FootprintsAISDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UhxefAfF0TP2VBkd0yJbVo69BN7KmnGZq0vZ5ybV/c8=
+			JlBZYdebcgZgSus2wyOcQfOqLGKM+59GW4yh+d2ruoM=
 			</data>
 		</dict>
 		<key>Modules/FootprintsAISDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			90zwRmvF7XRh3KO7j0knY3kTNQPzPo4UvAYZGBJzXwE=
+			PwOyeD/oGmOjDDhMs8WV5nO4P+6+OMo4of1Zc8K813Q=
 			</data>
 		</dict>
 		<key>Modules/FootprintsAISDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			90zwRmvF7XRh3KO7j0knY3kTNQPzPo4UvAYZGBJzXwE=
+			PwOyeD/oGmOjDDhMs8WV5nO4P+6+OMo4of1Zc8K813Q=
 			</data>
 		</dict>
 		<key>Modules/FootprintsAISDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n8TxcwainolfD9RUDQkNruoQB7UKaW499GVe+9xisHc=
+			j2sLV1rfKd5FXEb3s77nZXjRbVQ4xeOTu8STYD7vOIk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

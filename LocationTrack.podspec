@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LocationTrack"
-  spec.version      = "0.0.8"
+  spec.version      = "0.0.9"
   spec.summary      = "LocationTrack is an iOS SDK for real-time location tracking and monitoring."
 
   # This description is used to generate tags and improve search results.

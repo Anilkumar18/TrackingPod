@@ -277,9 +277,11 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreFoundation;
 @import CoreLocation;
 @import Foundation;
 @import ObjectiveC;
+@import UIKit;
 #endif
 
 #endif
@@ -300,6 +302,21 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+
+SWIFT_CLASS("_TtC15FootprintsAISDK14AdsViewManager")
+@interface AdsViewManager : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@class UIScrollView;
+
+@interface AdsViewManager (SWIFT_EXTENSION(FootprintsAISDK)) <UIScrollViewDelegate>
+- (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
+- (void)scrollViewWillEndDragging:(UIScrollView * _Nonnull)scrollView withVelocity:(CGPoint)velocity targetContentOffset:(CGPoint * _Nonnull)targetContentOffset;
+@end
+
+
 @class CLLocationManager;
 @class CLLocation;
 
@@ -311,6 +328,13 @@ SWIFT_CLASS("_TtC15FootprintsAISDK15LocationManager")
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
 - (void)locationManagerDidChangeAuthorization:(CLLocationManager * _Nonnull)manager;
 @end
+
+
+
+
+
+
+
 
 
 #endif
