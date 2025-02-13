@@ -1,22 +1,18 @@
 // swift-tools-version:5.5
+
 import PackageDescription
 
 let package = Package(
     name: "TrackingPod",
-    platforms: [
-        .iOS(.v12) // Set the minimum iOS version
-    ],
+    platforms: [.iOS(.v12)],
     products: [
-        .library(
-            name: "TrackingPod",
-            targets: ["TrackingPod"]
-        )
+        .library(name: "TrackingPod", targets: ["FootprintsAISDK"]) // 👈 Must match target
     ],
     dependencies: [],
     targets: [
         .binaryTarget(
-            name: "TrackingPod",
-            path: "Source/FootprintsAISDK.xcframework" // Ensure this path points to the actual xcframework
+            name: "FootprintsAISDK",  // 👈 This should match the framework name
+            path: "Source/FootprintsAISDK.xcframework"
         )
     ]
 )

@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "LocationTrack"
+  spec.name         = "TrackingPod"
   spec.version      = "0.0.9"
   spec.summary      = "LocationTrack is an iOS SDK for real-time location tracking and monitoring."
 
