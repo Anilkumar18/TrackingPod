@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		9iQaGVYSRk4FUFfWMzfOtr/wjKA=
+		7up9PMF2VuQM6vmAvGsb8fnU+jQ=
 		</data>
 		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ilsbUyeDaZJtQqWqcLkuP7pldeQ=
+		78pRvfTZegFDhHFWvnTAgZeHejk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,7 +61,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JlBZYdebcgZgSus2wyOcQfOqLGKM+59GW4yh+d2ruoM=
+			+QYidS/3WyZY7sH5hqM07/C/XIj69gWXoCfcmjtUeZY=
 			</data>
 		</dict>
 		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cm6jBGO8JsJ9sMlAd/muPwgE4ICBtOpcqNyqygpzluw=
+			LP0obGfS4rm3YgMbmKNGxOHQz6Af9aw5eSdOAQxYAVk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

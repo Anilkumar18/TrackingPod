@@ -12248,106 +12248,57 @@
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3592,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3710,
-      "length": 3,
-      "value": "150"
-    },
-    {
-      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3727,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdView.swift",
-      "kind": "StringLiteral",
-      "offset": 3792,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3845,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3946,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4135,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4711,
+      "offset": 4166,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4934,
+      "offset": 4389,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5022,
+      "offset": 4477,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5271,
+      "offset": 4726,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5445,
+      "offset": 4900,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5532,
+      "offset": 4987,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5818,
+      "offset": 5273,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6108,
+      "offset": 5563,
       "length": 2,
       "value": "16"
     },
@@ -12361,119 +12312,133 @@
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
       "kind": "StringLiteral",
-      "offset": 737,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 933,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 990,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1248,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1392,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1875,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2259,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2357,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2394,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
-      "kind": "StringLiteral",
-      "offset": 2458,
-      "length": 48,
-      "value": "\"Currently visible ad at index: \""
-    },
-    {
-      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
-      "kind": "StringLiteral",
-      "offset": 2505,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
-      "kind": "StringLiteral",
-      "offset": 2522,
-      "length": 38,
-      "value": "\"Current Ad Title: \""
-    },
-    {
-      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
-      "kind": "StringLiteral",
-      "offset": 2559,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
-      "kind": "StringLiteral",
-      "offset": 2576,
-      "length": 34,
-      "value": "\"Current Ad ID: \""
-    },
-    {
-      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
-      "kind": "StringLiteral",
-      "offset": 2609,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
-      "kind": "StringLiteral",
-      "offset": 2715,
+      "offset": 699,
       "length": 8,
       "value": "\"action\""
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
       "kind": "StringLiteral",
-      "offset": 2759,
+      "offset": 721,
+      "length": 7,
+      "value": "\"visit\""
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 823,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1019,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1076,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1334,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1478,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1961,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2345,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2443,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2480,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 2544,
+      "length": 48,
+      "value": "\"Currently visible ad at index: \""
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 2591,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 2608,
+      "length": 38,
+      "value": "\"Current Ad Title: \""
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 2645,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 2662,
+      "length": 34,
+      "value": "\"Current Ad ID: \""
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 2695,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 2801,
+      "length": 8,
+      "value": "\"action\""
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdScrollableAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 2845,
       "length": 7,
       "value": "\"visit\""
     },
@@ -12487,7 +12452,7 @@
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/Controller\/ContentDeliveryManager.swift",
       "kind": "Array",
-      "offset": 1161,
+      "offset": 1184,
       "length": 2,
       "value": "[]"
     },
@@ -12529,56 +12494,56 @@
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdScrollableAdView.swift",
       "kind": "StringLiteral",
-      "offset": 509,
+      "offset": 544,
       "length": 8,
       "value": "\"action\""
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdScrollableAdView.swift",
       "kind": "StringLiteral",
-      "offset": 531,
+      "offset": 566,
       "length": 7,
       "value": "\"visit\""
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdScrollableAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 813,
+      "offset": 848,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdScrollableAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 870,
+      "offset": 905,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdScrollableAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 904,
+      "offset": 939,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdScrollableAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1171,
+      "offset": 1206,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdScrollableAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1315,
+      "offset": 1350,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdScrollableAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1796,
+      "offset": 1831,
       "length": 4,
       "value": "true"
     },
@@ -12592,84 +12557,98 @@
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdScrollableAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2021,
+      "offset": 2056,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdScrollableAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2119,
+      "offset": 2154,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdScrollableAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2156,
+      "offset": 2191,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdScrollableAdView.swift",
       "kind": "StringLiteral",
-      "offset": 2220,
+      "offset": 2255,
       "length": 48,
       "value": "\"Currently visible ad at index: \""
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdScrollableAdView.swift",
       "kind": "StringLiteral",
-      "offset": 2267,
+      "offset": 2302,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdScrollableAdView.swift",
       "kind": "StringLiteral",
-      "offset": 2284,
+      "offset": 2319,
       "length": 38,
       "value": "\"Current Ad Title: \""
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdScrollableAdView.swift",
       "kind": "StringLiteral",
-      "offset": 2321,
+      "offset": 2356,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdScrollableAdView.swift",
       "kind": "StringLiteral",
-      "offset": 2338,
+      "offset": 2373,
       "length": 34,
       "value": "\"Current Ad ID: \""
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdScrollableAdView.swift",
       "kind": "StringLiteral",
-      "offset": 2371,
+      "offset": 2406,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdScrollableAdView.swift",
       "kind": "StringLiteral",
-      "offset": 2468,
+      "offset": 2423,
+      "length": 42,
+      "value": "\"Current Ad LinkURL: \""
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdScrollableAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 2464,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdScrollableAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 2599,
       "length": 8,
       "value": "\"action\""
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdScrollableAdView.swift",
       "kind": "StringLiteral",
-      "offset": 2512,
+      "offset": 2643,
       "length": 7,
       "value": "\"visit\""
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/LeadAdScrollableAdView.swift",
       "kind": "StringLiteral",
-      "offset": 2715,
+      "offset": 2846,
       "length": 106,
       "value": "\"https:\/\/staging.footprints-ai.com\/form\/679e30fdbc7b709e690166dd?mediumType=websiteLeadConversationBanner\""
     },
@@ -14678,105 +14657,105 @@
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2780,
+      "offset": 2771,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2880,
+      "offset": 2871,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2982,
+      "offset": 2973,
       "length": 3,
       "value": "-16"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3091,
+      "offset": 3082,
       "length": 3,
       "value": "-16"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3179,
+      "offset": 3170,
       "length": 3,
       "value": "150"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3254,
+      "offset": 3245,
       "length": 2,
       "value": "44"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4434,
+      "offset": 4427,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4657,
+      "offset": 4650,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4745,
+      "offset": 4738,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4994,
+      "offset": 4987,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5168,
+      "offset": 5161,
       "length": 2,
       "value": "35"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5349,
+      "offset": 5342,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5635,
+      "offset": 5628,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5925,
+      "offset": 5918,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/DisplayAdView.swift",
       "kind": "StringLiteral",
-      "offset": 6035,
+      "offset": 6028,
       "length": 15,
       "value": "\"adDataUpdated\""
     },
@@ -15973,133 +15952,133 @@
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/HorizontalVideoAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1665,
+      "offset": 1638,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/HorizontalVideoAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1721,
+      "offset": 1694,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/HorizontalVideoAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2169,
+      "offset": 2142,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/HorizontalVideoAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2269,
+      "offset": 2242,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/HorizontalVideoAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2371,
+      "offset": 2344,
       "length": 3,
       "value": "-16"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/HorizontalVideoAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2480,
+      "offset": 2453,
       "length": 3,
       "value": "-16"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/HorizontalVideoAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2593,
+      "offset": 2566,
       "length": 3,
       "value": "150"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/HorizontalVideoAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2666,
+      "offset": 2639,
       "length": 2,
       "value": "44"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/HorizontalVideoAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2918,
+      "offset": 2882,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/HorizontalVideoAdView.swift",
       "kind": "StringLiteral",
-      "offset": 4107,
+      "offset": 4071,
       "length": 32,
       "value": "\"The video URL is not playable.\""
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/HorizontalVideoAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6120,
+      "offset": 6055,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/HorizontalVideoAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6343,
+      "offset": 6278,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/HorizontalVideoAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6430,
+      "offset": 6365,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/HorizontalVideoAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6676,
+      "offset": 6611,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/HorizontalVideoAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6766,
+      "offset": 6701,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/HorizontalVideoAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6953,
+      "offset": 6888,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/HorizontalVideoAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7227,
+      "offset": 7162,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/HorizontalVideoAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7508,
+      "offset": 7443,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/HorizontalVideoAdView.swift",
       "kind": "StringLiteral",
-      "offset": 7628,
+      "offset": 7563,
       "length": 25,
       "value": "\"horizontalAdDataUpdated\""
     },
