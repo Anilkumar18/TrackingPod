@@ -141,6 +141,10 @@ Pod::Spec.new do |spec|
   # spec.dependency "JSONKit", "~> 1.4"
 
   spec.vendored_frameworks = 'Source/FootprintsAISDK.xcframework'
+
+  spec.module_name = "FootprintsAISDK"
+  spec.requires_arc = true
+
   spec.requires_arc = true
 
 end
