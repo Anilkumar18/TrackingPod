@@ -4343,6 +4343,387 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(adLayoutColor:titleFont:titleLabelColor:titleTextAlignMent:titleTextNumberOfLines:topMessageFont:topMessageColor:topMessageTextAlignMent:topMessageTextNumberOfLines:bannerVideoHeight:bannerVideoBackgroundColor:bannerVideoCornerRadius:bannerImageHeight:bannerImageBackgroundColor:bannerImageCornerRadius:bannerImageContentMode:footerFont:footerDescriptionLabelColor:footerDescriptionTextAlignment:footerTextNumberOfLines:clickHereButtonBackgroundColor:clickHereButtonCornerRadius:clickHereButtonTitleColor:clickHereButtonTitleFont:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdProps",
+                "printedName": "FootprintsAISDK.AdProps",
+                "usr": "s:15FootprintsAISDK7AdPropsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIFont?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.NSTextAlignment?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSTextAlignment",
+                    "printedName": "UIKit.NSTextAlignment",
+                    "usr": "c:@E@NSTextAlignment"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIFont?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.NSTextAlignment?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSTextAlignment",
+                    "printedName": "UIKit.NSTextAlignment",
+                    "usr": "c:@E@NSTextAlignment"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView.ContentMode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentMode",
+                    "printedName": "UIKit.UIView.ContentMode",
+                    "usr": "c:@E@UIViewContentMode"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIFont?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.NSTextAlignment?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSTextAlignment",
+                    "printedName": "UIKit.NSTextAlignment",
+                    "usr": "c:@E@NSTextAlignment"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIFont?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15FootprintsAISDK7AdPropsV13adLayoutColor9titleFont0h5LabelG00H13TextAlignMent0hK13NumberOfLines010topMessageI00qrG00qrklM00qrknoP017bannerVideoHeight0st10BackgroundG00sT12CornerRadius0s5ImageU00syvG00sywX00sY11ContentMode06footerI0017footerDescriptionjG0017footerDescriptionK9Alignment06footerknoP0015clickHereButtonvG0015clickHereButtonwX0020clickHereButtonTitleG0020clickHereButtonTitleI0ACSo7UIColorCSg_So6UIFontCSgA2_So15NSTextAlignmentVSgSiSgA5_A2_A8_A9_14CoreFoundation7CGFloatVSgA2_A13_A13_A2_A13_So06UIViewZ4ModeVSgA5_A2_A8_A9_A2_A13_A2_A5_tcfc",
+            "mangledName": "$s15FootprintsAISDK7AdPropsV13adLayoutColor9titleFont0h5LabelG00H13TextAlignMent0hK13NumberOfLines010topMessageI00qrG00qrklM00qrknoP017bannerVideoHeight0st10BackgroundG00sT12CornerRadius0s5ImageU00syvG00sywX00sY11ContentMode06footerI0017footerDescriptionjG0017footerDescriptionK9Alignment06footerknoP0015clickHereButtonvG0015clickHereButtonwX0020clickHereButtonTitleG0020clickHereButtonTitleI0ACSo7UIColorCSg_So6UIFontCSgA2_So15NSTextAlignmentVSgSiSgA5_A2_A8_A9_12CoreGraphics7CGFloatVSgA2_A13_A13_A2_A13_So06UIViewZ4ModeVSgA5_A2_A8_A9_A2_A13_A2_A5_tcfc",
+            "moduleName": "FootprintsAISDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",
@@ -14216,252 +14597,259 @@
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "StringLiteral",
-      "offset": 1668,
+      "offset": 1592,
       "length": 20,
       "value": "\"logConsoleMessages\""
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "StringLiteral",
-      "offset": 1766,
+      "offset": 1799,
+      "length": 20,
+      "value": "\"logConsoleMessages\""
+    },
+    {
+      "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 1897,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "FloatLiteral",
-      "offset": 1908,
+      "offset": 2039,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2012,
+      "offset": 2143,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2059,
+      "offset": 2190,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2173,
+      "offset": 2304,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "FloatLiteral",
-      "offset": 2468,
+      "offset": 2599,
       "length": 4,
       "value": "0.95"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2749,
+      "offset": 2880,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2898,
+      "offset": 3029,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3224,
+      "offset": 3355,
       "length": 3,
       "value": "-40"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "StringLiteral",
-      "offset": 3298,
+      "offset": 3429,
       "length": 7,
       "value": "\"xmark\""
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3550,
+      "offset": 3681,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3615,
+      "offset": 3746,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3661,
+      "offset": 3792,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3709,
+      "offset": 3840,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3942,
+      "offset": 4073,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "FloatLiteral",
-      "offset": 4307,
+      "offset": 4438,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4319,
+      "offset": 4450,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4435,
+      "offset": 4566,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "FloatLiteral",
-      "offset": 4472,
+      "offset": 4603,
       "length": 4,
       "value": "0.95"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "FloatLiteral",
-      "offset": 4558,
+      "offset": 4689,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "StringLiteral",
-      "offset": 4869,
+      "offset": 5000,
       "length": 76,
       "value": "\"WebView did start loading: \""
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "StringLiteral",
-      "offset": 4930,
+      "offset": 5061,
       "length": 13,
       "value": "\"Unknown URL\""
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "StringLiteral",
-      "offset": 4944,
+      "offset": 5075,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "StringLiteral",
-      "offset": 5050,
+      "offset": 5181,
       "length": 75,
       "value": "\"WebView finished loading: \""
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "StringLiteral",
-      "offset": 5110,
+      "offset": 5241,
       "length": 13,
       "value": "\"Unknown URL\""
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "StringLiteral",
-      "offset": 5124,
+      "offset": 5255,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "StringLiteral",
-      "offset": 5252,
+      "offset": 5383,
       "length": 55,
       "value": "\"WebView failed loading: \""
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "StringLiteral",
-      "offset": 5306,
+      "offset": 5437,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "StringLiteral",
-      "offset": 5588,
+      "offset": 5719,
       "length": 31,
       "value": "\"https:\/\/api.whatsapp.com\/send\""
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "StringLiteral",
-      "offset": 6074,
+      "offset": 6205,
       "length": 20,
       "value": "\"logConsoleMessages\""
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "StringLiteral",
-      "offset": 6150,
+      "offset": 6281,
       "length": 21,
       "value": "\"WebView Log: \""
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "StringLiteral",
-      "offset": 6170,
+      "offset": 6301,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "StringLiteral",
-      "offset": 6214,
+      "offset": 6345,
       "length": 71,
       "value": "\"https:\/\/staging.footprints-ai.com\/chatClient\/groupChat\/saveChatClient\""
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "Dictionary",
-      "offset": 6492,
+      "offset": 6623,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/achuanilsmacbookpro\/Documents\/GitHub\/ios-mobile-sdk\/FootprintsAISDK\/Ads\/View\/CustomWebView.swift",
       "kind": "StringLiteral",
-      "offset": 6572,
+      "offset": 6703,
       "length": 28,
       "value": "\"WhatsApp is not installed.\""
     },

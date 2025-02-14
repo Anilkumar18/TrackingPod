@@ -97,6 +97,7 @@ public struct AdProps {
   public var clickHereButtonCornerRadius: CoreFoundation.CGFloat?
   public var clickHereButtonTitleColor: UIKit.UIColor?
   public var clickHereButtonTitleFont: UIKit.UIFont?
+  public init(adLayoutColor: UIKit.UIColor? = nil, titleFont: UIKit.UIFont? = nil, titleLabelColor: UIKit.UIColor? = nil, titleTextAlignMent: UIKit.NSTextAlignment? = nil, titleTextNumberOfLines: Swift.Int? = nil, topMessageFont: UIKit.UIFont? = nil, topMessageColor: UIKit.UIColor? = nil, topMessageTextAlignMent: UIKit.NSTextAlignment? = nil, topMessageTextNumberOfLines: Swift.Int? = nil, bannerVideoHeight: CoreFoundation.CGFloat? = nil, bannerVideoBackgroundColor: UIKit.UIColor? = nil, bannerVideoCornerRadius: CoreFoundation.CGFloat? = nil, bannerImageHeight: CoreFoundation.CGFloat? = nil, bannerImageBackgroundColor: UIKit.UIColor? = nil, bannerImageCornerRadius: CoreFoundation.CGFloat? = nil, bannerImageContentMode: UIKit.UIView.ContentMode? = nil, footerFont: UIKit.UIFont? = nil, footerDescriptionLabelColor: UIKit.UIColor? = nil, footerDescriptionTextAlignment: UIKit.NSTextAlignment? = nil, footerTextNumberOfLines: Swift.Int? = nil, clickHereButtonBackgroundColor: UIKit.UIColor? = nil, clickHereButtonCornerRadius: CoreFoundation.CGFloat? = nil, clickHereButtonTitleColor: UIKit.UIColor? = nil, clickHereButtonTitleFont: UIKit.UIFont? = nil)
 }
 public protocol AdsViewManagerDelegate : AnyObject {
   func didSelectAdsClickAction()

@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		7up9PMF2VuQM6vmAvGsb8fnU+jQ=
+		gyizuDkRpCQgUT4+yvT72ZLdR9E=
 		</data>
 		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		lESD3Vn6Lh7KxMgfXUekaBYQUnI=
+		jDVfepDyI06B1rO+iVwU6x+7jN0=
 		</data>
 		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		lESD3Vn6Lh7KxMgfXUekaBYQUnI=
+		jDVfepDyI06B1rO+iVwU6x+7jN0=
 		</data>
 		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Bg4VpXXNrTJ4P2dTg6VlAkrG9nQ=
+		I5Y6rTNGKMAFVcp0W3U/psitqBw=
 		</data>
 		<key>Modules/FootprintsAISDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		7up9PMF2VuQM6vmAvGsb8fnU+jQ=
+		gyizuDkRpCQgUT4+yvT72ZLdR9E=
 		</data>
 		<key>Modules/FootprintsAISDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ahJKen9SKB+G5s/R9n7EYq2KWD4=
+		T9PebHoGnd1sLR/lcN1ZdlldZiU=
 		</data>
 		<key>Modules/FootprintsAISDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/FootprintsAISDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ahJKen9SKB+G5s/R9n7EYq2KWD4=
+		T9PebHoGnd1sLR/lcN1ZdlldZiU=
 		</data>
 		<key>Modules/FootprintsAISDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xYbUIcRNFYtnl2T/vUFLL+VskgY=
+		UOiKdu6OV40rKNn6Y8KxEfsHixk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+QYidS/3WyZY7sH5hqM07/C/XIj69gWXoCfcmjtUeZY=
+			SJ8aNPGT2DxSfdte3kuP0Uu4CLpdWr7i11T2CPeNyHQ=
 			</data>
 		</dict>
 		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mrZ0q9s0E/6OqiAYgSS3bf3GaNCS5eomzZReQY8sCJA=
+			NGZPWDvk8feiObVy6DDPUMJ+ypWtXNombeCkRn7nWYc=
 			</data>
 		</dict>
 		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mrZ0q9s0E/6OqiAYgSS3bf3GaNCS5eomzZReQY8sCJA=
+			NGZPWDvk8feiObVy6DDPUMJ+ypWtXNombeCkRn7nWYc=
 			</data>
 		</dict>
 		<key>Modules/FootprintsAISDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pz1+cm/SHrUWqOH2+8ZTJQ+Ja+kdY7NrCT2WytFvgnc=
+			Yz4bX9XnT/r/EvcgqN7p/f1UBW/uKitdMSWSilThkS8=
 			</data>
 		</dict>
 		<key>Modules/FootprintsAISDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+QYidS/3WyZY7sH5hqM07/C/XIj69gWXoCfcmjtUeZY=
+			SJ8aNPGT2DxSfdte3kuP0Uu4CLpdWr7i11T2CPeNyHQ=
 			</data>
 		</dict>
 		<key>Modules/FootprintsAISDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PwOyeD/oGmOjDDhMs8WV5nO4P+6+OMo4of1Zc8K813Q=
+			TY4AL8CO7fJgo4xcV/09jUz3Da0+M7NCJPyWZJ4Z52o=
 			</data>
 		</dict>
 		<key>Modules/FootprintsAISDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PwOyeD/oGmOjDDhMs8WV5nO4P+6+OMo4of1Zc8K813Q=
+			TY4AL8CO7fJgo4xcV/09jUz3Da0+M7NCJPyWZJ4Z52o=
 			</data>
 		</dict>
 		<key>Modules/FootprintsAISDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pqMyfp9oRlNLtk1SHKjSXxQCbO5bE+vcVlAeau+OmNw=
+			u5yQhj2QLu6JwGHVPuf1eNQVepwqZduvNSEGwwbXlX0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
